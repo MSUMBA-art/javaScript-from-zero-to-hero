@@ -44,7 +44,7 @@ const lastName = "Msumba";
 console.log(firstName + " " + lastName);
 
 // B assignment operators
-let x = 10 + 5; // 15
+//let x = 10 + 5; // 15
 x += 10 // x = x 10 = 25
 x *= 4 //x = x * 4 = 100
 x++ // x = x + 1 = 101   increase the value by 1
@@ -60,3 +60,9 @@ console.log(ageIrene >= 10);
 const isFullAge = ageIrene >= 10;
 
 console.log(now - 1999 > now - 2020);
+
+//console.log(4 * 3 ** 2);// 46
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
