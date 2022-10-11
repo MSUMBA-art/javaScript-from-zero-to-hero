@@ -6,7 +6,7 @@ if (age === 18) {
  console.log('18' == 18)// true;
  console.log('18' === 18)// false;
 
-const favourite = 99;
+const favourite = 23;
  console.log(favourite);
  console.log(typeof favourite);
 
@@ -24,8 +24,8 @@ else {
   console.log("Number is not 23 or 7 or 9");
  }
 
-//  if (favourite === 23) {
-//   console.log("23 is cool");
+  if (favourite === 23) {
+  console.log("Why not 23");
 //  } else if(favourite === 7) {
 //   console.log("7 is also cool");
 //  } else if (favourite === 9) {
@@ -36,4 +36,4 @@ else {
 
 //  if ( favourite !== 23) { // !== means not
   
-//  }
+  }
